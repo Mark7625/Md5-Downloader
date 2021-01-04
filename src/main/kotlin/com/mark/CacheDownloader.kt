@@ -185,9 +185,3 @@ class CacheDownloader(
     }
 
 }
-
-fun main() {
-
-    CacheDownloader("./cache/", "https://www.simplicitysmp.com/cache/", updateCheck = true, writeOnlineHash = false)
-
-}
